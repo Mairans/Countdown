@@ -38,3 +38,13 @@ ul, li {
 .time:last-child {
     margin-right: 0;
 }
+
+@media (max-width: 375px) {
+    .time-list {
+        font-size: 20px;
+    }
+    .time {
+    margin-right: 25px;
+    }
+    
+}
