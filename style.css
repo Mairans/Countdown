@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    overflow: hidden;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(223, 224, 229);
+    font-family: sans-serif;
+    color: rgb(77, 63, 114);
+}
+
+h1, h2 {
+    margin: 0;
+    font-size: 50px;
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.time-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 25px;
+
+}
+
+.time {
+    margin-right: 50px;
+}
+.time:last-child {
+    margin-right: 0;
+}
